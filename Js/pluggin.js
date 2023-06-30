@@ -57,7 +57,7 @@ function generatePosts() {
                 circleThree.className = 'circle-three';
 
                 let postNumber = document.createElement('div');
-                let postNumberCount =  document.createTextNode(info.id);
+                let postNumberCount =  document.createTextNode(padPostNumber(info.id));
                 postNumber.className = 'post-number';
                 postNumber.classList.add('monts-semibold');
 
